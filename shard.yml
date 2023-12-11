@@ -1,0 +1,17 @@
+name: csv-to-sqlite
+version: 0.1.0
+
+authors:
+  - David Backeus <duztdruid@gmail.com>
+
+targets:
+  csv-to-sqlite:
+    main: src/csv-to-sqlite.cr
+
+crystal: 1.8.2
+
+license: MIT
+
+dependencies:
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
